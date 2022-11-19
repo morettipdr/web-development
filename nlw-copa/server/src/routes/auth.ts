@@ -27,4 +27,4 @@ export async function authRoutes(fastify: FastifyInstance){
         return {userInfo}
     })
 }
-// ya29.a0AeTM1ie0fpUjsaevYxCDDEcpVcMUXPj-fIJ96b7Dt1yPIqpZZ-iS58frRk4XTsiX_DTZuH7Ock5MxTiOIZriDoauLVyd2UbkL1r9bpvc8IfbMEqx0Ukl80Hx7R-3_b_mNfJynY0Ucn31aTx5T7dpoaeqbwS2aCgYKAZwSARASFQHWtWOmBDLxtBCwuJ182WC5F-wvDw0163
+// ya29.a0AeTM1if6hqpL5lcKlRGk12Hsww531TxdNCISAYiku8QCacKo9v-D--dFXP7QDKW8F8kML4ntkmfyYOF--2hfcdd7In5j3vinhJ4IhGl7OYS8o8nwPP2WTa43A0rDbaCXYLE__bzgWE607A8j6VhjK-DI3mG0wgaCgYKAW8SARMSFQHWtWOmkKOIrZIHyuO-kcYEXFNDtw0165
