@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+:root {
+    --title: #fffcf9;
+    --subtitle: #b3b3b3;
+    --bg-button: #e9e6e3;
+    --background: linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%);
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: var(--background);
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3%;
+    padding-top: 9%;
+}
+.container img {
+    width: 6.05%;
+    height: 6.6%;
+}
+.container button img {
+    width: 20%;
+    height: 55%;
+}
+.container strong {
+    color: var(--title);
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.container small {
+    color: var(--subtitle);
+    text-align: center;
+}
+.container button {
+    box-sizing: border-box;
+    background-color: var(--bg-button);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 12.5%;
+    height: 6.5%;
+    gap: 17px;
+    border-radius: 10px;
+    transition: background 0.2s;
+}
+.container button strong {
+    font-size: 14px;
+    color: black;
+    font-weight: 700;
+}
+.container button:hover {
+    cursor: pointer;
+    background-color: #acaaa9;
+}
+
+.container .movie {
+    color: white;
+    height: 34vh;
+    width: 44vw;
+    display: flex;
+    gap: 10vw;
+}
+/* 500px - 750px */
+.container .movie .img {
+    width: 500px;
+    height: 750px;
+    flex: 1;
+}
+
+.container .movie .details .title {
+    font-weight: 800;
+    font-size: 20px
+}
+.container .movie .details .movieDetails {
+    font-size: 16px;
+}

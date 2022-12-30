@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    box-sizing: border-box;;
+    padding: 0;
+}
+body, input, button {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px
+}
+
