@@ -65,14 +65,13 @@ body{
     color: white;
     height: 34vh;
     width: 44vw;
-    display: flex;
-    gap: 10vw;
+    display: none;
+    gap: 3vw;
 }
 /* 500px - 750px */
-.container .movie .img {
-    width: 500px;
-    height: 750px;
-    flex: 1;
+.container .movie .movieImage {
+    width: 12vw;
+    height: 30vh;
 }
 
 .container .movie .details .title {
@@ -80,5 +79,5 @@ body{
     font-size: 20px
 }
 .container .movie .details .movieDetails {
-    font-size: 16px;
+    font-size: 14px;
 }
