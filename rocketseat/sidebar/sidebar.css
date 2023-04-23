@@ -92,10 +92,15 @@
 .para{
     line-height: 14px;
 }
-.photo{
+#imgContainer {
     height: 48px;
     width: 48px;
+}
+.photo{
+    height: 100%;
+    width: 100%;
     border-radius: 10px;
+    object-fit: cover;
 }
 .job{
     font-size: 12px;
